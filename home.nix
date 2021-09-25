@@ -19,8 +19,9 @@
   # changes in each release.
   home.stateVersion = "21.05";
 
-  home.packages = [
-    pkgs.vscode
+  home.packages = with pkgs; [
+    vscode
+    xclip
   ];
 
   programs.git = {

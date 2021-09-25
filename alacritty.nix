@@ -1,4 +1,6 @@
-let font = "Fira Code"; in {
+let
+  font = "Fira Code";
+in {
   env = { TERM = "alacritty"; };
   window = {
     dimensions = { columns = 200; lines = 38; };
